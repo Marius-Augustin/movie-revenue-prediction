@@ -1,6 +1,6 @@
 import mysql.connector
 
-from source.database.mariadb import MariaDB
+from source.database import MariaDB
 from source.model import Person
 
 class PersonRepository:

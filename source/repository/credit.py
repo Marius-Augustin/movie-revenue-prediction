@@ -1,4 +1,4 @@
-from source.database.mariadb import MariaDB
+from source.database import MariaDB
 from source.model import Credit
 
 class CreditRepository:
